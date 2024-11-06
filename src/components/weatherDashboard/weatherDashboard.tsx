@@ -2,10 +2,10 @@ import React, { Suspense, useEffect, useTransition } from "react";
 import { Typography, Box, CircularProgress } from "@mui/material";
 import { useAppSelector, useAppDispatch } from "../../utils/hooks";
 import { RootState } from "../../store";
+import { CityData } from "./weatherDashboard.types";
 import {
   removeCity,
   initializeCitiesFromCache,
-  CityData,
   clearError,
 } from "../../store/weatherSlice";
 import Header from "../header/header";

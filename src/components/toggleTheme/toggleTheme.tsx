@@ -23,7 +23,7 @@ const ToggleTheme: React.FC = () => {
             checked={isDarkMode}
             onChange={handleThemeChange}
             color="primary"
-            inputProps={{ 'data-testid': 'theme-switch' }}
+            inputProps={{ 'data-testid': 'theme-switch' } as React.InputHTMLAttributes<HTMLInputElement>}
           />
         }
         label=""
