@@ -66,7 +66,7 @@ const WeatherDashboard: React.FC = () => {
               zIndex: -1,
               width: "100%",
               height: "100%",
-              background: "url('/src/assets/Weather.png')",
+              background: "url('/assets/Weather.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               filter: "blur(35px)",
@@ -104,7 +104,7 @@ const WeatherDashboard: React.FC = () => {
               alignItems={"strecth"}
               height={"80%"}
               sx={{
-                background: "url('/src/assets/weather-bg.jpg')",
+                background: "url('/assets/weather-bg.jpg')",
                 backgroundSize: "40%",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
