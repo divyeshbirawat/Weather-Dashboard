@@ -1,4 +1,4 @@
-# Weather Dashboard
+# DynaWeather Dashboard
 
 ## Table of Contents
 - [Weather Dashboard](#weather-dashboard)
@@ -11,6 +11,7 @@
   - [Contributing](#contributing)
   - [License](#license)
 
+## Try It Out via: https://dynaweather.netlify.app/
 
 ## Tech Stack
 This project uses the following technologies and libraries:
