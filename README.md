@@ -1,14 +1,22 @@
 # DynaWeather Dashboard
 
 ## Table of Contents
-- [Weather Dashboard](#weather-dashboard)
+- [DynaWeather Dashboard](#dynaweather-dashboard)
   - [Table of Contents](#table-of-contents)
+  - [Try It Out via: https://dynaweather.netlify.app/](#try-it-out-via-httpsdynaweathernetlifyapp)
   - [Tech Stack](#tech-stack)
   - [Features](#features)
   - [Folder Structure](#folder-structure)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
+  - [Future Enhancements](#future-enhancements)
+      - [Detailed Weather Information](#detailed-weather-information)
+      - [Geolocation-Based Weather](#geolocation-based-weather)
+      - [Historical Weather Data](#historical-weather-data)
+    - [Favorites and Persistent Data](#favorites-and-persistent-data)
+    - [Weather Alerts](#weather-alerts)
+    - [Interactive Map](#interactive-map)
   - [License](#license)
 
 ## Try It Out via: https://dynaweather.netlify.app/
@@ -93,6 +101,28 @@ Contributions are welcome! Please follow these steps to contribute:
   git push origin feature/your-feature-name
   ```
 5. Open a pull request.
+
+
+## Future Enhancements
+
+#### Detailed Weather Information
+Add more detailed information such as humidity, visibility, wind speed, and the forecast for the next few hours or days to the weather information that is shown on each card.
+
+#### Geolocation-Based Weather
+Automatically detect the user’s location and show weather data for their current city on load. This would provide a personalized experience and remove the need for manual searching for most users.
+
+#### Historical Weather Data
+To make the app more useful for study, incorporate historical weather data so users may see previous city weather trends.
+
+### Favorites and Persistent Data
+Allow users to mark specific cities as "favorites" and save this information so that users can visit their preferred spots during different sessions.
+
+### Weather Alerts
+Integrate weather alerts for extreme conditions (e.g., storms, high winds) from the OpenWeather API to notify users of significant weather changes that might impact their plans.
+
+### Interactive Map
+Add a map interface where users can click on a location to view its weather data. This could be achieved using APIs like Google Maps or Mapbox for an interactive, visual approach.
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.*
