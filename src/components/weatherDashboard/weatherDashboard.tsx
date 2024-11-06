@@ -12,6 +12,8 @@ import Header from "../header/header";
 import useFetchWeather from "../../utils/apiHooks/useFetchWeather";
 import ErrorBoundary from "../errorBoundary/errorBoundary";
 import Error from "../error/error";
+import Weather from '../../assets/Weather.png';
+import WeatherBg from '../../assets/weather-bg.jpg';
 
 const WeatherCard = React.lazy(() => import("../weatherCard/weatherCard"));
 
@@ -66,7 +68,7 @@ const WeatherDashboard: React.FC = () => {
               zIndex: -1,
               width: "100%",
               height: "100%",
-              background: "url('/assets/Weather.png')",
+              background: `url(${Weather})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               filter: "blur(35px)",
@@ -104,7 +106,7 @@ const WeatherDashboard: React.FC = () => {
               alignItems={"strecth"}
               height={"80%"}
               sx={{
-                background: "url('/assets/weather-bg.jpg')",
+                background: `url(${WeatherBg})`,
                 backgroundSize: "40%",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
