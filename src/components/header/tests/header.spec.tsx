@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Header from '../header'; // Adjust the import path accordingly
+import Header from '../header';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import themeReducer from '../../../store/themeSlice';

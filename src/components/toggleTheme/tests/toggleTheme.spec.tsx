@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import ToggleTheme from '../toggleTheme'; // Adjust the import path accordingly
+import ToggleTheme from '../toggleTheme';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import themeReducer, { toggleDarkMode } from '../../../store/themeSlice';

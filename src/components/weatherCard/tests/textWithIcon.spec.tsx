@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import TextWithIcon from '../textWithIcon'; // Adjust the import path accordingly
+import TextWithIcon from '../textWithIcon';
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
 
 describe('TextWithIcon', () => {

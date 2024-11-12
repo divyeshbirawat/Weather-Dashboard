@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Error from '../error'; // Adjust the import path accordingly
+import Error from '../error';
 import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 
 describe('Error', () => {

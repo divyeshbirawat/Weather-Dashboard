@@ -1,8 +1,8 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import ErrorBoundary from '../errorBoundary'; // Adjust the import path accordingly
-import Error from '../../error/error'; // Adjust the import path accordingly
+import ErrorBoundary from '../errorBoundary';
+import Error from '../../error/error';
 
 // Mocking the Error component
 jest.mock('../../error/error', () => {
