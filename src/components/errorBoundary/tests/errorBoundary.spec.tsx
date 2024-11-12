@@ -5,21 +5,22 @@ import ErrorBoundary from '../errorBoundary';
 import Error from '../../error/error';
 
 // Mocking the Error component
-jest.mock('../../error/error', () => {
-  return function MockError({ message }: { message: string }) {
-    return <div data-testid="error-component">{message}</div>;
-  };
-});
+jest.mock('../../error/error', () => ({
+  __esModule: true,
+  default: (props: { message: string }) => <div data-testid="error-component">{props.message}</div>,
+}));
 
 describe('ErrorBoundary', () => {
-  class TestError extends Error {
+  class TestError extends globalThis.Error {
+    name: string;
+
     constructor(message: string) {
       super(message);
       this.name = 'TestError';
     }
   }
 
-  const ThrowError = () => {
+  const ThrowError: React.FC = () => {
     throw new TestError('Test error');
   };
 
